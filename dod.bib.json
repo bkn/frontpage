@@ -1,0 +1,284 @@
+{
+  "recordList": [
+    {
+      "name": "UCBFaculty", 
+      "description": "All faculty at the University of California at Berkeley. Data includes names, titles, public identifiers, homepage, and expertise.", 
+      "browse": "http://people.bibkn.org/conStruct/browse/?browse=true&dataset=http%3A%2F%2Fpeople.bibkn.org%2Fwsf%2Fdatasets%2FUCBFaculty%2F", 
+      "download": "http://downloads.bibsoup.org/datasets/ucbfaculty/UCBFaculty.bib.json", 
+      "source":"http://vcresearch.berkeley.edu/faculty-expertise",
+      "records": 1867, 
+      "collected":"August 2010",
+      "createdDate": "2010-09-17 11:14:27", 
+      "size": "2.55 MB", 
+       
+      "id": "ucbfaculty", 
+      "linkage": [
+        "http://www.bibkn.org/drupal/bibjson/iron_linkage.json"
+      ], 
+      "schema": [
+        "http://downloads.bibsoup.org/datasets/bibjson/identifiers.json", 
+        "http://downloads.bibsoup.org/datasets/ucbfaculty/ucbfaculty_record.json", 
+        "http://downloads.bibsoup.org/datasets/bibjson/bibjson_schema_100713.json",
+        "http://www.bibkn.org/drupal/bibjson/bibjson_schema.json"
+      ]
+    }, 
+    {
+      "size": "10.71 MB", 
+      "description": "Association for Computing Machinery (ACM) profile page data including names and identifiers.", 
+      "browse": "http://people.bibkn.org/conStruct/browse/?browse=true&dataset=http%3A%2F%2Fpeople.bibkn.org%2Fwsf%2Fdatasets%2FACM_authorid%2F", 
+      "download": "http://downloads.bibsoup.org/datasets/acm/ACM.bib.json", 
+      "source": {
+          "url": "http://portal.acm.org/portal.cfm?coll=GUIDE&dl=GUIDE&CFID=97842691&CFTOKEN=77023238", 
+          "name": "ACM Portal"
+        }, 
+      "creator": "Jim Cai", 
+      "collected":"August 2010",
+      "records": 110000, 
+      "createdDate": "2010-09-17 11:12:43", 
+      "schema": [
+        "http://downloads.bibsoup.org/datasets/bibjson/identifiers.json", 
+        "http://downloads.bibsoup.org/datasets/bibjson/bibjson_schema_100713.json",
+        "http://www.bibkn.org/drupal/bibjson/bibjson_schema.json"
+      ], 
+       
+      "id": "acm", 
+      "linkage": [
+        "http://www.bibkn.org/drupal/bibjson/iron_linkage.json"
+      ], 
+      "name": "ACM"
+    }, 
+    {
+      "name": "UCBStat", 
+      "description": "Statistics department faculty at the University of California at Berkeley. Data includes names, homepages, and identifiers.", 
+      "browse": "http://people.bibkn.org/conStruct/browse/?browse=true&dataset=http%3A%2F%2Fpeople.bibkn.org%2Fwsf%2Fdatasets%2FUCBStat%2F", 
+      "download": "http://downloads.bibsoup.org/datasets/ucbstat/UCBStat.bib.json", 
+      "source":"http://www.stat.berkeley.edu/cgi-bin/people.cgi",
+      "records": 47, 
+      "collected":"August 2010",
+      "createdDate": "2010-09-17 10:59:58", 
+      "schema": [
+        "http://downloads.bibsoup.org/datasets/bibjson/identifiers.json", 
+        "http://downloads.bibsoup.org/datasets/bibjson/bibjson_schema_100713.json",
+        "http://www.bibkn.org/drupal/bibjson/bibjson_schema.json"
+      ], 
+       
+      "id": "ucbstat", 
+      "linkage": [
+        "http://www.bibkn.org/drupal/bibjson/iron_linkage.json"
+      ], 
+      "size": "21.25 KB"
+    }, 
+    {
+      "name": "mgp",
+      "description": "Mathematics Genealogy Project provides information about ALL the mathematicians of the world. Data includes mathematician names with related advisors and students, thesis titles with dates and universities.", 
+      "prefLabel": "Mathematics Genealogy Project", 
+      "browse": "http://people.bibkn.org/conStruct/browse/?browse=true&dataset=http%3A%2F%2Fpeople.bibkn.org%2Fwsf%2Fdatasets%2Fmgp_id%2F", 
+      "download": "http://downloads.bibsoup.org/datasets/mgp/mgp.bib.json", 
+      "source": {
+          "href": "http://www.math.ndsu.nodak.edu/", 
+          "name": "North Dakota State University, Department of Mathematics"
+        }, 
+      "creator": {
+        "ref": "30968", 
+        "name": "Jim Pitman"
+      }, 
+      "collected":"January 2010",
+      "records": 268492, 
+      "collected":"",
+      "createdDate": "2010-09-17 11:03:52", 
+      "id": "mgp", 
+      "size": "92.70 MB", 
+      "schema": [
+        "http://downloads.bibsoup.org/datasets/mgp/mgp_linkage.json",
+        "http://downloads.bibsoup.org/datasets/mgp/mgp_record.json",
+        "http://downloads.bibsoup.org/datasets/bibjson/identifiers.json", 
+        "http://downloads.bibsoup.org/datasets/bibjson/bibjson_schema_100713.json",
+        "http://www.bibkn.org/drupal/bibjson/bibjson_schema.json"
+      ], 
+      "linkage": [
+        "http://downloads.bibsoup.org/datasets/mgp/mgp_linkage.json", 
+        "http://www.bibkn.org/drupal/bibjson/iron_linkage.json"
+      ]
+    }, 
+    {
+      "name": "oberwolfach",
+      "description": "Oberwolfach Photo Collection - Photographs of Mathematicians from all over the world. Data includes names, identifiers, and links to images.", 
+      "size": "7.56 MB", 
+      "prefURL": "http://owpdb.mfo.de/", 
+      "browse": "http://people.bibkn.org/conStruct/browse/?browse=true&dataset=http%3A%2F%2Fpeople.bibkn.org%2Fwsf%2Fdatasets%2Foberwolfach_id%2F", 
+      "download": "http://downloads.bibsoup.org/datasets/oberwolfach/oberwolfach.bib.json", 
+      "source":"http://www.stat.berkeley.edu/cgi-bin/people.cgi",
+      "records": 19701, 
+      "linkage": [
+        "http://www.bibkn.org/drupal/bibjson/iron_linkage.json"
+      ], 
+      "collected":"January 2010",
+      "createdDate": "2010-09-17 11:01:20", 
+      "schema": [        
+          "http://downloads.bibsoup.org/datasets/oberwolfach/oberwolfach_record.json",
+          "http://downloads.bibsoup.org/datasets/oberwolfach/oberwolfach_linkage.json",
+          "http://downloads.bibsoup.org/datasets/bibjson/identifiers.json", 
+          "http://downloads.bibsoup.org/datasets/bibjson/bibjson_schema_100713.json",
+          "http://www.bibkn.org/drupal/bibjson/bibjson_schema.json"
+       ],
+      "id": "oberwolfach", 
+      "prefLabel": "Oberwolfach Photo Collection " 
+    }, 
+    {
+      "name": "hku",
+      "description": "University of Hong Kong faculty including names, aliases, images, public identifiers, and bibliometric data", 
+      "browse": "http://people.bibkn.org/conStruct/browse/?browse=true&dataset=http%3A%2F%2Fpeople.bibkn.org%2Fwsf%2Fdatasets%2Fhku_id%2F", 
+      "download": "http://downloads.bibsoup.org/datasets/hku/hku.bib.json", 
+      "source": {
+          "url": "http://hub.hku.hk/", 
+          "name": "The University of Hong Kong Libraries"
+        }, 
+      "records": 2997, 
+      "creator": "Jack Alves", 
+      "collected":"April 2010",
+      "createdDate": "2010-09-17 11:12:13", 
+      "size": "1.24 MB",
+      "schema": [
+        "http://downloads.bibsoup.org/datasets/hku/type_hints.json",
+        "http://downloads.bibsoup.org/datasets/hku/hku_record.json",
+        "http://downloads.bibsoup.org/datasets/bibjson/identifiers.json",
+        "http://downloads.bibsoup.org/datasets/bibjson/bibjson_schema_100713.json",
+        "http://www.bibkn.org/drupal/bibjson/bibjson_schema.json"
+      ], 
+       
+      "id": "hku", 
+      "linkage": [
+        "http://www.bibkn.org/drupal/bibjson/iron_linkage.json"
+      ] 
+    }, 
+    {
+      "name": "mathscinet_mrauth", 
+      "description": "American Mathematical Society names and identifiers from MathSciNet Mathematical Reviews.", 
+      "browse": "http://people.bibkn.org/conStruct/browse/?browse=true&dataset=http%3A%2F%2Fpeople.bibkn.org%2Fwsf%2Fdatasets%2Fmathscinet_mrauth%2F", 
+      "download": "http://downloads.bibsoup.org/datasets/mathscinet_mrauth/mathscinet_mrauth.bib.json", 
+      "source":"http://www.ams.org/mathscinet",
+      "records": 473207, 
+      "collected":"February 2010",
+      "createdDate": "2010-09-17 11:09:20", 
+      "schema": [
+                 "http://downloads.bibsoup.org/datasets/mathscinet_mrauth/mathscinet_mrauth_record.json",
+                 "http://downloads.bibsoup.org/datasets/bibjson/identifiers.json", 
+                 "http://downloads.bibsoup.org/datasets/bibjson/bibjson_schema_100713.json",
+                 "http://www.bibkn.org/drupal/bibjson/bibjson_schema.json"
+               ], 
+      "id": "mathscinet_mrauth", 
+      "linkage": [
+        "http://www.bibkn.org/drupal/bibjson/mrauth_linkage.json", 
+        "http://www.bibkn.org/drupal/bibjson/iron_linkage.json"
+      ], 
+      "size": "56.20 MB"
+    }, 
+    {
+      "name": "UCBMath", 
+      "description": "Mathematics department faculty at the University of California at Berkeley. Data includes names, homepages, and identifiers.", 
+      "browse": "http://people.bibkn.org/conStruct/browse/?browse=true&dataset=http%3A%2F%2Fpeople.bibkn.org%2Fwsf%2Fdatasets%2FUCBMath%2F", 
+      "download": "http://downloads.bibsoup.org/datasets/ucbmath/UCBMath.bib.json", 
+      "source":"http://math.berkeley.edu/people_faculty.html",
+      "records": 104, 
+      "collected":"August 2010",
+      "createdDate": "2010-09-17 11:00:11", 
+      "schema": [
+        "http://downloads.bibsoup.org/datasets/bibjson/identifiers.json", 
+        "http://downloads.bibsoup.org/datasets/bibjson/bibjson_schema_100713.json",
+        "http://www.bibkn.org/drupal/bibjson/bibjson_schema.json"
+      ], 
+       
+      "id": "ucbmath", 
+      "linkage": [
+        "http://www.bibkn.org/drupal/bibjson/iron_linkage.json"
+      ], 
+      "size": "41.21 KB"
+    }, 
+    {
+      "name": "repec",
+      "description": "Research Papers in Economics authors, identifiers, and some contact information.",
+      "browse": "http://people.bibkn.org/conStruct/browse/?browse=true&dataset=http%3A%2F%2Fpeople.bibkn.org%2Fwsf%2Fdatasets%2Frepec_id%2F", 
+      "download": "http://downloads.bibsoup.org/datasets/repec/repec.bib.json", 
+      "source":"http://repec.org/",
+      "records": 30251, 
+      "collected":"February 2010",
+      "createdDate": "2010-09-17 11:00:45", 
+      "schema": [
+                 "http://downloads.bibsoup.org/datasets/repec/repec_record.json",
+                 "http://downloads.bibsoup.org/datasets/repec/repec_linkage.json",
+                 "http://downloads.bibsoup.org/datasets/bibjson/identifiers.json", 
+                 "http://downloads.bibsoup.org/datasets/bibjson/bibjson_schema_100713.json",
+                 "http://www.bibkn.org/drupal/bibjson/bibjson_schema.json"
+               ],  
+      "id": "repec", 
+      "linkage": [
+        "http://www.bibkn.org/drupal/bibjson/iron_linkage.json"
+      ], 
+      "size": "5.44 MB"
+    }, 
+    {
+      "name": "scholarometer", 
+      "description": "University of Indiana's Scholarometer. Data includes names and bibliometric data.",
+      "browse": "http://people.bibkn.org/conStruct/browse/?browse=true&dataset=http%3A%2F%2Fpeople.bibkn.org%2Fwsf%2Fdatasets%2Fscholarometer%2F", 
+      "download": "http://downloads.bibsoup.org/datasets/scholarometer/scholarometer.bib.json", 
+      "source":"http://scholarometer.indiana.edu/",
+      "records": 13110, 
+      "collected":"June 2010",
+      "createdDate": "2010-09-17 11:00:28", 
+      "size": "4.69 MB", 
+       
+      "id": "scholarometer", 
+      "linkage": [
+        "http://www.bibkn.org/drupal/bibjson/iron_linkage.json"
+      ], 
+      "schema": [
+        "http://downloads.bibsoup.org/datasets/bibjson/identifiers.json", 
+        "http://downloads.bibsoup.org/datasets/scholarometer/scholarometer_sample_record.json", 
+        "http://downloads.bibsoup.org/datasets/bibjson/bibjson_schema_100713.json",        
+        "http://www.bibkn.org/drupal/bibjson/bibjson_schema.json"
+      ]
+    }, 
+    {
+      "name": "openlibrary_mathstat", 
+      "description": "Open Library author names with bibliographies. Data includes public identifiers for Library of Congress and Dewey Decimal classifications.",
+      "browse": "http://people.bibkn.org/conStruct/browse/?browse=true&attribute=all&type=all&dataset=http%3A%2F%2Fpeople.bibkn.org%2Fwsf%2Fdatasets%2FOpenLibrary_MathStat%2F&page=0", 
+      "download": "http://downloads.bibsoup.org/datasets/openlibrary_mathstat/openlibrary_mathstat.bib.json", 
+      "source":"http://openlibrary.org/",
+      "records": 312567, 
+      "collected":"June 2010",
+      "createdDate": "2010-09-17 11:17:36", 
+      "size": "129.26 MB", 
+       
+      "id": "openlibrary_mathstat", 
+      "linkage": [
+        "http://www.bibkn.org/drupal/bibjson/iron_linkage.json"
+      ], 
+      "schema": [
+        "http://downloads.bibsoup.org/datasets/openlibrary_mathstat/type_hints.json", 
+        "http://downloads.bibsoup.org/datasets/bibjson/identifiers.json",
+        "http://downloads.bibsoup.org/datasets/bibjson/bibjson_schema_100713.json",
+        "http://www.bibkn.org/drupal/bibjson/bibjson_schema.json"
+      ]
+    }
+  ], 
+  "dataset": {
+    "description": "Metadata Set", 
+    "records": 11, 
+    "table_cols": [
+      "name", 
+      "size", 
+      "records", 
+      "description"
+    ], 
+    "creator": "", 
+    "curator": "", 
+    "source": "", 
+    "createdDate": "2010-09-17 11:58:47", 
+    "size": "9.30 KB", 
+    "id": "http://datasets.bibsoup.org/wsf/datasets/dod", 
+    "linkage": [
+      "http://www.bibkn.org/drupal/bibjson/iron_linkage.json"
+    ], 
+    "name": "dod.bib.json"
+  }
+}

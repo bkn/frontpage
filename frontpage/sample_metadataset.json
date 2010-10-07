@@ -1,0 +1,70 @@
+{
+  "datasets":[
+      {
+        "title":"A",
+        "description":"Dataset X",
+        "source":"localhost/dataset3.json",
+        "file_size":"",
+        "record_count":"",
+        "public_identifier_names":[ ],
+        "schema":"",
+        "subject":[],
+        "quality":"",
+        "bibjson_compliant":"",
+        "primary_content":""
+      },
+      {
+        "title":"B",
+        "description":"Dataset Z",
+        "source":"localhost/dataset1.json",
+        "file_size":"",
+        "record_count":"",
+        "public_identifier_names":[ ],
+        "schema":"",
+        "subject":[],
+        "quality":"",
+        "bibjson_compliant":"",
+        "primary_content":""
+      },
+      {
+        "title":"C",
+        "description":"Dataset W",
+        "source":"localhost/dataset2.json",
+        "file_size":"",
+        "record_count":"",
+        "public_identifier_names":[ ],
+        "schema":"",
+        "subject":[],
+        "quality":"",
+        "bibjson_compliant":"",
+        "primary_content":""
+      },
+      {
+        "title":"D",
+        "description":"Dataset Y",
+        "source":"localhost/dataset4.json",
+        "file_size":"",
+        "record_count":"",
+        "public_identifier_names":[ ],
+        "schema":"",
+        "subject":[],
+        "quality":"",
+        "bibjson_compliant":"",
+        "primary_content":""
+      }
+  ],
+
+	"schema":[
+		"title",
+		"description",
+		"source",
+		"file_size",
+		"record_count",
+		"public_identifier_names",
+		"schema",
+		"subject",
+		"quality",
+		"bibjson_compliant",
+		"primary_content"
+	]
+}
